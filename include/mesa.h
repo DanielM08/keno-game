@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 
+
 struct Aposta {
 
     float cash;

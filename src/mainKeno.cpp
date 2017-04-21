@@ -1,5 +1,6 @@
 #include "kenobet.h"
 
+
 	std::vector<int> spots = { 2, 5, 19, 21, 56, 78 };
 	int NR = 5;
 	float cash = 1500;
