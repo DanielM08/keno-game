@@ -1,0 +1,26 @@
+resource: 1500
+nr: 5
+s: {-6, 8, 8, 10, -4, 12, 15, 12}
+1) Ler aposta (validar)
+   spots: {8, 10, 15, 12}
+2) Mostrar payout
+3) Executar rodadas Nr
+   3.1) Sortear 20 nºs
+   3.2) Calcular acertos (get_hits, 20
+   3.3) Consultar tabela de payout
+   3.4) Atualizar o 'Net Balance'
+4)Apresentar sumário
+
+KenoBet 
+
+Membros:
+   Guardar Spots
+   Recurso/cash
+   Nr
+
+------------------
+Faz:
+   Receber nº da entrada
+   Conferir os acertos
+       vector<int> Calcular_acerto(vector<int>)
+  
